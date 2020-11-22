@@ -3,7 +3,7 @@ R-WEKA
 
 ## Implementando las herramientas de WEKA desde R
 
-\<img align=“right” width= “10%” src=“archivos/wekasandwich.jpg”\>
+<img align="right" width= "30%" src="archivos/wekasandwich.jpg">
 
   - Espacio dedicado a la ejemplificación de las aplicaciones y alcances
     de las herramientas que WEKA ofrece para la minería de datos, todo
