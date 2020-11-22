@@ -1,7 +1,67 @@
+---
+title: "R-WEKA"
+author: Nahuel Bargas
+output:
+  prettydoc::html_pretty:
+    includes:
+      in_header: ["archivos/mat2.html"]
+    theme: cayman
+    highlight: github
+---
+
+
 # R-WEKA
-Implementando las herramientas de WEKA desde R. 
+### Implementando las herramientas de WEKA desde R. 
 
 - Espacio dedicado a la ejemplificación de las aplicaciones y alcances de las herramientas que WEKA ofrece para la minería de datos, todo  desde la  propia consola de R y con la posibilidad de agilizar la programación. 
 - Abarcará la selección de atributos, aplicación de filtros, utilización de  distintos algoritmos y visualización.
 
+## Una introducción al uso de R desde WEKA.
+
+- <a href="https://nahuelbargas.github.io/R-WEKA/inicio.html">Ver las slides. </a>
+
+- El código para reproducir las slides lo podrán encontrar <a href="https://nahuelbargas.github.io/R-WEKA/inicio.Rmd"> en el repositorio </a> y si quieren una copia en *PDF*, visiten éste <a href="https://nahuelbargas.github.io/R-WEKA/RyWeka-Slides.pdf"> enlace </a> .
+ 
+
+```{r weka ,echo=FALSE,fig.cap=" El áve en cuestión<br>https://phys.org/news/2019-09-weka-sandwich-stealing-scallywags-ecosystem.html",out.width="50%", out.height="50%"}
+include_graphics("archivos/wekasandwich.jpg") 
+```
+
+
 - Cualquier <a href="mailto:nahuelbargas@hotmail.com">sugerencia o comentario</a>  es bienvenido.
+
+
+```{css, echo=FALSE}
+
+/*
+Pueden dirigirse a http://janhuenermann.github.io/social-circles/ para 
+conocer cómo implementar los botones para redes sociales en su documento.
+En mi caso, adapte la fuente y css provistas por el autor para utilizar Ionicons.
+Ver fonts/ionicons.ttf y css/social-circles.min2.css en mi repositorio.
+*/
+
+
+ol { 
+        list-style-type: none;
+        padding: 0;margin: 0;
+}
+
+ol li { 
+        display: inline-block;
+        margin: 4px;
+}
+
+.social-button.borderless {
+        padding: 0 16px;
+}
+
+
+```
+
+
+<ol>
+	<li><a class="icon-linkedin social-button borderless" href="https://linkedin.com/in/nahuel-bargas/"></a></li>
+    <li><a class="icon-twitter social-button borderless" href="https://twitter.com/Nahuel_Sef"></a></li>
+	<li><a class="icon-github social-button borderless" href="https://github.com/NahuelBargas"></a></li>
+    <li><a class="icon-telegram social-button borderless" href="https://telegram.me/Nahuel_Sef"></a></li>
+</ol>
